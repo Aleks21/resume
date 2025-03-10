@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>резюме Александра</title>
+    <meta name="description" content="HTML, RESUME, tags">
+    <meta name="keywords" content="ЭТО МОЯ ПЕРВАЯ РАБОТА">
+    <link rel="stylesheet" href="Styles.css">
+ </head>
+
+ <style>
+ 
+  .container {
+     max-width: 800px;
+     margin: auto;
+     padding: auto;
+  }
+
+  @media (max-width: 650px) {
+    .avatar {
+        display: block;
+        text-align: center;
+    }
+ }
+  .avatar {
+            width: 150px;
+            border-radius: 28px;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+        }
+ </style>
+
+<body>
+  <div class="container">
+     <img src="myfoto.jpg" alt="Александр Судаков" class="avatar">
+  
+      <div class="box">
+       <H1>Александр Судаков</H1> 
+ 
+       <p>это моя страница в соцсетях я хочу быть успешным </p>
+       <br>   
+    
+       <nav class="navbar">
+       <h2>Мои соцсети</h2>
+       <a href="https://vk.com">VK</a> |<a href="https://telegram.org">Telegram</a> |<a href="https://youtube.com">Youtube</a>
+       </nav>
+      </div>
+  <br>
+
+  <div class="card border-2">
+    <h2>Мои хобби</h2>
+    <ul class="list">
+    <ol>1.Кроссфит</ol>
+    <ol>2.Компьютерные игры</ol>
+    <ol>3.Футбол</ol>
+    </ul>
+  </div> 
+ <br>
+  <div class="card border-3"> 
+
+     <h2>Опыт работы</h2>
+     <table class="table">
+     <!--<thead>
+     <tr>
+      <th>Название</th>
+     <th>Должность</th>
+     <th>Год</th>
+     </tr> 
+     </thead> -->
+          <tr>
+      <td>Меридиан</td>
+      <td>Инженер проектировщик</td>
+      <td>2012-2013</td>
+       </tr>
+        <tr>
+        <td>РЭМИСС</td>
+        <td>Инженер ПТО</td>
+        <td>2013-2018</td>
+        </tr>
+          <tr>
+            <td>ИП Миронова О.Г.</td>
+            <td>Инженер ПТО</td>
+            <td>2018-2024</td>    
+        </tr>
+       
+     </tbody>
+    
+   </table> 
+
+  </div> 
+  <br>
+  
+  <div class="card border-4"> 
+   <div class="inline li">
+   
+  
+    <form action="/" class="form">
+      <h2>Связаться со мной</h2> 
+
+      <div class="form-row">
+      
+        <div class="form-group">
+          <label for="name">Ваше имя</label>
+          <input type="text" id="name"
+          placeholder="Введите имя">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш email</label>
+          <input type="email" id="email"
+          placeholder="Введите email">
+        </div>
+      </div>  
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение</label>
+          <textarea id="message" cols="20" rows="5"
+          placeholder="Введите сообщение..."></textarea>
+        </div>
+       
+
+      
+      <input class="btn" type="submit" value="Отправить">  
+    
+    
+    </form>
+</div>
+</body>
+
+</html>
