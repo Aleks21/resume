@@ -1,0 +1,20 @@
+/* inline, block, inline-block */
+
+.inline li{
+    display: inline; 
+}
+
+.box {
+    width: 70%;
+    max-width: 750px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 80px;
+}
+
+.img {
+    width: 288px;
+    display: block;
+    margin: 48px auto;
+
+}

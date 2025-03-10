@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    background-color: #FFE4C4; 
+   font-family: 'Roboto', sans-serif;
+   font-size:  12px;
+   line-height: 1.6em;
+   font-weight: normal;
+   /*font: normal 20 px 'Roboto', sans-serif;*/
+   /*text-decoration: underline; */
+   /*font-style: italic;*/
+   /*letter-spacing: 10px;*/
+   /*word-spacing: 20px*/
+}
+
